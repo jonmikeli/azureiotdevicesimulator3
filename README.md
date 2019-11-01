@@ -20,7 +20,7 @@ Example of uses:
 <br/>
 
 Technical information:
- - .NET Core 2.x
+ - .NET Core 3.x
  - Microsoft Azure IoT SDK (Device capabilities, including IoT Hub modules)
 
 <br/>
@@ -112,6 +112,10 @@ Functional features are based on these generic technical features:
  - Twins (Tags)
  - Direct Methods
  - Messages
+
+## Upcoming features
+- IoT Plug and Play, as soon as the C# SDK will be released
+- "fileupload" feature implementation
 
 ## More information
 
