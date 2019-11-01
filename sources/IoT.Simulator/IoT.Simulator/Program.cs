@@ -101,7 +101,7 @@ namespace IoT.Simulator2
 
                 //Simulators
                 if (!deviceSettings.SimulationSettings.EnableDevice && !deviceSettings.SimulationSettings.EnableModules)
-                    logger.LogDebug("PROGRAM:: No simulator has been configured.");
+                    logger.LogDebug("PROGRAM::No simulator has been configured.");
                 else
                 {
                     if (deviceSettings.SimulationSettings.EnableDevice)
