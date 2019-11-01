@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IoT.Simulator2\IoT.Simulator2.csproj" />
+    <ProjectReference Include="..\IoT.Simulator\IoT.Simulator.csproj" />
   </ItemGroup>
 
 </Project>
