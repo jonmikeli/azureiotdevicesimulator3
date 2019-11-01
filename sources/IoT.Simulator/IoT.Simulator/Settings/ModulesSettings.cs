@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace IoT.Simulator2.Settings
+namespace IoT.Simulator.Settings
 {
     public class ModulesSettings
     {

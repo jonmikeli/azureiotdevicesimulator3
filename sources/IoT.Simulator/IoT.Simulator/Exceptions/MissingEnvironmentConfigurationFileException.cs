@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IoT.Simulator2.Exceptions
+namespace IoT.Simulator.Exceptions
 {
     public class MissingEnvironmentConfigurationFileException : ArgumentException
     {

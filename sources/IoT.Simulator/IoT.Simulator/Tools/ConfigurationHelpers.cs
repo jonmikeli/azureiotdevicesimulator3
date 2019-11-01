@@ -1,9 +1,9 @@
-﻿using IoT.Simulator2.Exceptions;
+﻿using IoT.Simulator.Exceptions;
 using System;
 using System.IO;
 using System.Text;
 
-namespace IoT.Simulator2.Tools
+namespace IoT.Simulator.Tools
 {
     public static class ConfigurationHelpers
     {

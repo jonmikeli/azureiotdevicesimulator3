@@ -1,4 +1,4 @@
-﻿namespace IoT.Simulator2.Services
+﻿namespace IoT.Simulator.Services
 {
     public enum MessageServices
     {

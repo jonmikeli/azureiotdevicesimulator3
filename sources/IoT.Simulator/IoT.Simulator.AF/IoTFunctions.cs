@@ -7,7 +7,7 @@ using System;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IoT.Simulator2.Latency
+namespace IoT.Simulator.Latency
 {
     public static class IoTFunctions
     {

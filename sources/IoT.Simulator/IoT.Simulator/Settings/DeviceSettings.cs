@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 
-namespace IoT.Simulator2.Settings
+namespace IoT.Simulator.Settings
 {
-    public class DeviceSettings: SettingsBase
+    public class DeviceSettings : SettingsBase
     {
         public string ArtifactId
         {
@@ -12,5 +12,5 @@ namespace IoT.Simulator2.Settings
         [JsonProperty("simulationSettings")]
         public SimulationSettingsDevice SimulationSettings
         { get; set; }
-    }    
+    }
 }

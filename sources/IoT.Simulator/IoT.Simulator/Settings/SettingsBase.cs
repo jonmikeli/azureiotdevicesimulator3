@@ -1,7 +1,7 @@
-﻿using IoT.Simulator2.Extensions;
+﻿using IoT.Simulator.Extensions;
 using Newtonsoft.Json;
 
-namespace IoT.Simulator2.Settings
+namespace IoT.Simulator.Settings
 {
     public class SettingsBase
     {
@@ -28,6 +28,6 @@ namespace IoT.Simulator2.Settings
                 else
                     return string.Empty;
             }
-        }       
+        }
     }
 }

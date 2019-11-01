@@ -1,4 +1,4 @@
-﻿namespace IoT.Simulator2.Extensions
+﻿namespace IoT.Simulator.Extensions
 {
     public static class ConnectionStringExtensions
     {

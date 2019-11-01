@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace IoT.Simulator2.Models
+namespace IoT.Simulator.Models
 {
     public class DataItem
     {

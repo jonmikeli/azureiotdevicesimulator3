@@ -1,7 +1,7 @@
-﻿namespace IoT.Simulator2.Settings
+﻿namespace IoT.Simulator.Settings
 {
-    public class SimulationSettingsModule: SimulationSettingsBase
+    public class SimulationSettingsModule : SimulationSettingsBase
     {
-        
+
     }
 }

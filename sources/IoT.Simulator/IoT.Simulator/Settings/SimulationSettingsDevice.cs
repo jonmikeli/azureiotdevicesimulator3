@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 
-namespace IoT.Simulator2.Settings
+namespace IoT.Simulator.Settings
 {
-    public class SimulationSettingsDevice: SimulationSettingsBase
+    public class SimulationSettingsDevice : SimulationSettingsBase
     {
 
         [JsonProperty("enableLatencyTests")]

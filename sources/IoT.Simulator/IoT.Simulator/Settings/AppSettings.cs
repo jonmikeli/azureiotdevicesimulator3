@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace IoT.Simulator2.Settings
+namespace IoT.Simulator.Settings
 {
     public class AppSettings
     {

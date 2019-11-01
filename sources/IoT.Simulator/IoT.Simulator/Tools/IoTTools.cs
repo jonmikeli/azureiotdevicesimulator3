@@ -1,10 +1,10 @@
-﻿using IoT.Simulator2.Extensions;
+﻿using IoT.Simulator.Extensions;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 
-namespace IoT.Simulator2.Tools
+namespace IoT.Simulator.Tools
 {
     public class IoTTools
     {
@@ -51,7 +51,7 @@ namespace IoT.Simulator2.Tools
             if (string.IsNullOrEmpty(moduleId))
                 throw new ArgumentNullException(nameof(moduleId), "No hostname has been found within the connection string");
 
-            logger.LogDebug($"{logPrefix}::ModuleId:{moduleId}::CheckModuleConnectionStringData");           
+            logger.LogDebug($"{logPrefix}::ModuleId:{moduleId}::CheckModuleConnectionStringData");
         }
 
         internal static string RandomizeData(string jsonMessage)
@@ -105,7 +105,7 @@ namespace IoT.Simulator2.Tools
                     {
                         jobject["moduleId"] = JToken.FromObject(moduleId);
                     }
-                }                
+                }
 
                 return JsonConvert.SerializeObject(jobject, Formatting.Indented);
             }

@@ -1,7 +1,7 @@
-﻿namespace IoT.Simulator2.Services
+﻿namespace IoT.Simulator.Services
 {
-    interface IModuleSimulationService: ISimulationService
+    interface IModuleSimulationService : ISimulationService
     {
-        
+
     }
 }

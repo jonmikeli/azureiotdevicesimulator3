@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 
-namespace IoT.Simulator2.Tools
+namespace IoT.Simulator.Tools
 {
     public class StringToConsoleColorConverter : JsonConverter
     {

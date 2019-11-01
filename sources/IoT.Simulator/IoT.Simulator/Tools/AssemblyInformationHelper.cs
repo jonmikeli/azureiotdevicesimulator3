@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace IoT.Simulator2.Tools
+namespace IoT.Simulator.Tools
 {
     public static class AssemblyInformationHelper
     {

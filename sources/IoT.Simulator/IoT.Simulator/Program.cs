@@ -1,7 +1,7 @@
-﻿using IoT.Simulator2.Exceptions;
-using IoT.Simulator2.Services;
-using IoT.Simulator2.Settings;
-using IoT.Simulator2.Tools;
+﻿using IoT.Simulator.Exceptions;
+using IoT.Simulator.Services;
+using IoT.Simulator.Settings;
+using IoT.Simulator.Tools;
 using Microsoft.Azure.Devices.Client;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -10,7 +10,7 @@ using System;
 using System.IO;
 using System.Linq;
 
-namespace IoT.Simulator2
+namespace IoT.Simulator
 {
     class Program
     {

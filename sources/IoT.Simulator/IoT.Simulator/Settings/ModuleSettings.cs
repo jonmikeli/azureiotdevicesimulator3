@@ -1,9 +1,9 @@
-﻿using IoT.Simulator2.Extensions;
+﻿using IoT.Simulator.Extensions;
 using Newtonsoft.Json;
 
-namespace IoT.Simulator2.Settings
+namespace IoT.Simulator.Settings
 {
-    public class ModuleSettings: SettingsBase
+    public class ModuleSettings : SettingsBase
     {
         public string ModuleId
         {
@@ -30,7 +30,7 @@ namespace IoT.Simulator2.Settings
         [JsonProperty("simulationSettings")]
         public SimulationSettingsModule SimulationSettings
         {
-            get;set;
+            get; set;
         }
     }
 }

@@ -43,7 +43,7 @@ The device sends updated Reported Properties (Twins) after many operations/comma
 
 |Method name|Description|Request|Response|Comments|
 |:-|:-|:-|:-|:-|
-| SendLatencyTest | Allows to start a [latency](LatencyTests.md) test between a given device and the Microsoft Azure IoT Hub where the device is registered. | ```{ "deviceId":"", "messageType":"latency", "startTimestamp":12345} ```| NA |The request contains the initial  timpestamp, which is sent back to the device after all the process in order to allow him to measure latency. <br>***NOTE: this feature requires an [Azure Function](https://github.com/jonmikeli/azureiotdevicesimulator/tree/master/sources/IoT.Simulator2/IoT.Simulator2.AF) responding to the latency test requests and calling back the C2D LatencyTestCallBack Direct Method.***|
+| SendLatencyTest | Allows to start a [latency](LatencyTests.md) test between a given device and the Microsoft Azure IoT Hub where the device is registered. | ```{ "deviceId":"", "messageType":"latency", "startTimestamp":12345} ```| NA |The request contains the initial  timpestamp, which is sent back to the device after all the process in order to allow him to measure latency. <br>***NOTE: this feature requires an [Azure Function](https://github.com/jonmikeli/azureiotdevicesimulator/tree/master/sources/IoT.Simulator/IoT.Simulator.AF) responding to the latency test requests and calling back the C2D LatencyTestCallBack Direct Method.***|
 |LatencyTestCallBack|Allows to end a [latency](LatencyTests.md) test between a given device and the Microsoft Azure IoT Hub where the device is registered. |```startTimestamp``` value, allowing to math the [latency](LatencyTests.md) (string)|<ul><li>message notifying that the LatencyTestCallBack Direct Method has been called (string).</li><li> result code, 200</li></ul>|NA|
 | Reboot | Simulates a device reboot operation. | NA | <ul><li>message notifiying that the Reboot Direct Method has been called (string).</li><li> result code, 200</li></ul>|Sends Twins (Reported properties) notifying the reboot.|
 | OnOff | Turns a given device on/off. | JSON Object | <ul><li>message notifying that the OnOff Direct Method has been called (string). The message contains request's payload.</li><li> result code, 200</li></ul>|
@@ -144,7 +144,7 @@ The features of the application rely on two main components:
  #### Runing .NET Core application
  Run the command below:
  ```dotnet
- dotnet IoT.Simulator2.dll
+ dotnet IoT.Simulator.dll
  ```
 
  #### Runing Docker container

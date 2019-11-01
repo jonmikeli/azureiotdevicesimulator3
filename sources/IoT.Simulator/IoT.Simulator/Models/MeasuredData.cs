@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace IoT.Simulator2.Models
+namespace IoT.Simulator.Models
 {
     public class MeasuredData
     {

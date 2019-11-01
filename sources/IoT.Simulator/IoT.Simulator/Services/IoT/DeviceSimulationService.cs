@@ -1,6 +1,6 @@
-﻿using IoT.Simulator2.Extensions;
-using IoT.Simulator2.Settings;
-using IoT.Simulator2.Tools;
+﻿using IoT.Simulator.Extensions;
+using IoT.Simulator.Settings;
+using IoT.Simulator.Tools;
 using Microsoft.Azure.Devices.Client;
 using Microsoft.Azure.Devices.Shared;
 using Microsoft.Extensions.Logging;
@@ -13,7 +13,7 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IoT.Simulator2.Services
+namespace IoT.Simulator.Services
 {
     public class DeviceSimulationService : ISimulationService
     {

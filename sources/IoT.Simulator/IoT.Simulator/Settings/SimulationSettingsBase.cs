@@ -1,8 +1,8 @@
-﻿using IoT.Simulator2.Tools;
+﻿using IoT.Simulator.Tools;
 using Newtonsoft.Json;
 using System;
 
-namespace IoT.Simulator2.Settings
+namespace IoT.Simulator.Settings
 {
     public class SimulationSettingsBase
     {

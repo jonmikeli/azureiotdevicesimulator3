@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace IoT.Simulator2.Services
+﻿namespace IoT.Simulator.Services
 {
-    public interface IErrorMessageService: IMessageService
+    public interface IErrorMessageService : IMessageService
     {
 
     }

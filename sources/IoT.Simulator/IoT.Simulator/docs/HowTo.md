@@ -223,7 +223,7 @@ You are totally free to change and adapt them to your needs.
 #### Commands
 **Regular**
 ```cmd
-dotnet IoT.Simulator2.dll
+dotnet IoT.Simulator.dll
 ```
 
 **Changing the environment**
@@ -231,11 +231,11 @@ dotnet IoT.Simulator2.dll
 Linux
 ```cmd
 export ENVIRONMENT=Development
-dotnet IoT.Simulator2.dll
+dotnet IoT.Simulator.dll
 ```
 
 Windows
 ```cmd
 set ENVIRONMENT=Development
-dotnet IoT.Simulator2.dll
+dotnet IoT.Simulator.dll
 ```

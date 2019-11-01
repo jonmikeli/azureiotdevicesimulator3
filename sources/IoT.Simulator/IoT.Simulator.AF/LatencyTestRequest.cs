@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
 
-namespace IoT.Simulator2.Latency
+namespace IoT.Simulator.Latency
 {
     public class LatencyTestRequest
     {
